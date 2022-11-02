@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OperaçãoAritmética</title>
+    <script src="operaritm.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Cálculos</h1>
+    </header>
+    <main>
+        <form >
+            <fieldset oninput="calculonums();">
+                <input type="number" placeholder="Número 1" id="num1" value="">
+                <input type="number" placeholder="Número 2" id="num2" value="">
+            </fieldset>
+            <fieldset>
+                <label for="resulsoma">Soma:</label>
+                <input type="number" id="resulsoma" readonly> 
+                <br>
+                <label for="resulsub">Subtração:</label>
+                <input type="number" id="resulsub" readonly> 
+                <br>
+                <label for="resuldiv">Divisão:</label>
+                <input type="number" id="resuldiv" readonly> 
+                <br>
+                <label for="resulmult">Multiplicação:</label>
+                <input type="number" id="resulmult" readonly> 
+                <br>
+                <label for="resulexpo">Exponenciação:</label>
+                <input type="number" id="resulexpo" readonly>
+                <br>
+                <label for="resulrest">Resto:</label>
+                <input type="number" id="resulrest" readonly>
+            </fieldset>
+        </form>
+    </main>
+    
+</body>
+</html>
